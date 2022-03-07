@@ -1,2 +1,2 @@
 # Site-CACAU-SHOW
-Site realizado no curso Novotec Expresso 
+Site realizado no curso Novotec Expresso na Fatec São Roque
