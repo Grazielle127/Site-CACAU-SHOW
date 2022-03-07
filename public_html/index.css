@@ -1,0 +1,57 @@
+@charset "UTF-8"
+
+*{box-sizing:border-box}
+
+
+header>
+img{
+ 
+ display: flex;
+ justify-content:space-between
+
+ flex-grow: 1;
+}
+
+.menu{
+    
+    list-style: none; 
+    display: inline;
+    padding: 5px 10px; 
+    margin:auto;
+    border: 0px solid rgb(120, 198, 221); 
+    background: rgb(53, 39, 39);
+    text-d display: inline;ecoration: none;
+    color:white;
+    /* cantos arredondados */
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:5px;
+}
+ 
+.menu a:hover {
+    background: #CCC;
+    color: #000; 
+    border-color: #000;
+}
+
+.flex{
+    
+    display: flex;
+
+}
+
+div{
+    width: 100px;
+    height:100px;
+    display: inline-block;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: green;
+  color: white;
+  text-align: center;
+}
